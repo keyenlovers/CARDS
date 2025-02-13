@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*
+.kartu {
+    width: 300px;  
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kartu .gambar img {
+    width: 100%;  
+    object-fit: cover;  
+    border-radius: 10px;
+}
+
+
+.kartu .deskripsi {
+    padding: 15px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.medsos {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.medsos a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+      background: #125688;
+      color: white;
+  }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+  }  
